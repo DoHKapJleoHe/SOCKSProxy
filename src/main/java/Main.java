@@ -6,5 +6,7 @@ public class Main
         ProxyServer proxyServer = new ProxyServer(proxyPort);
         Thread thread = new Thread(proxyServer);
         thread.start();
+        
+        System.out.println("Proxy started working!");
     }
 }
